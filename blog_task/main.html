@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photo Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f8f8f8;
+      color: #333;
+    }
+
+    nav {
+      background-color: #4a90e2;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    nav a {
+      margin-right: 20px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .content {
+      margin: 30px 0;
+      background-color: white;
+      padding: 25px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      color: #2c3e50;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .pic {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: space-evenly;
+      margin: 20px 0;
+    }
+
+    img {
+      max-width: 300px;
+      height: 300px;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    footer {
+      background-color: #2c3e50;
+      color: white;
+      padding: 15px;
+      text-align: center;
+      border-radius: 8px;
+      margin-top: 30px;
+    }
+
+    footer p {
+      color: white;
+      margin: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <a href="main.html">Home</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="content">
+    <h1>Beautiful Animal</h1>
+
+    <div class="pic">
+      <div style="display: flex; flex-direction: column;">
+        <img src="./img/cats.jpg" alt="White cat with blue eyes and black cat">
+        <a href="cat.html" style="margin-top: 10px; width: 100%; text-align: center;">Read more..</a>
+      </div>
+
+      <div style="display: flex; flex-direction: column;">
+        <img src="./img/puppies.jpg">
+        <a href="dog.html" style="margin-top: 10px; width: 100%; text-align: center;">Read more..</a>
+      </div>
+    </div>
+
+
+  </div>
+
+  <footer>
+    <p>© 2025 Photo Page</p>
+  </footer>
+
+</body>
+
+</html>

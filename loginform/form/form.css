@@ -1,0 +1,116 @@
+.form-container {
+  width: 400px;
+  border: 1px solid #000;
+  padding: 10px;
+  font-family: Arial, sans-serif;
+}
+
+.form-row {
+  display: flex;
+  margin-bottom: 10px;
+  min-height: 30px;
+}
+
+.form-label {
+  background-color: #d3d3d3;
+  width: 150px;
+  padding: 5px;
+  border: 1px solid #000;
+  font-size: 14px;
+}
+
+.form-input {
+  flex-grow: 1;
+  border: 1px solid #000;
+  border-left: none;
+  padding: 5px;
+}
+
+.form-input input[type="text"],
+.form-input input[type="password"],
+.form-input input[type="email"],
+.form-input input[type="tel"],
+.form-input select,
+.form-input textarea {
+  width: 100%;
+  border: none;
+  outline: none;
+}
+
+.address-input {
+  height: 80px;
+}
+
+.hobbies-input input {
+  width: auto;
+  margin-right: 10px;
+}
+
+.button-container {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.button-container input {
+  margin: 0 5px;
+}
+
+.signup-container {
+  max-width: 800px;
+  margin: 50px auto;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f8f9fe;
+}
+
+.title {
+  color: #2c3e50;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  color: #666;
+  font-size: 16px;
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+
+.signup-form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.email-input {
+  flex: 1;
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  outline: none;
+}
+
+.email-input::placeholder {
+  color: #999;
+}
+
+.create-button {
+  background-color: #ff4757;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.create-button:hover {
+  background-color: #ff3446;
+}
