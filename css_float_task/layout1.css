@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.header,
+.footer {
+  background-color: skyblue;
+  height: 50px;
+  padding: 10px;
+}
+
+.header p,
+.footer p {
+  padding: 5px;
+}
+
+.container {
+  background-color: lightgrey;
+  padding: 20px;
+}
+
+.div1 {
+  background-color: orange;
+  height: 60px;
+  padding: 10px;
+}
+
+.div2 {
+  background-color: green;
+  height: 60px;
+  padding: 10px;
+  float: left;
+}
+
+.div3 {
+  background-color: lightpink;
+  height: 60px;
+  padding: 10px;
+}
+
+.div4 {
+  background-color: yellow;
+  height: 60px;
+  padding: 10px;
+}
